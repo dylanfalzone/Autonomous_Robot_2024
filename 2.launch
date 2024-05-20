@@ -1,0 +1,15 @@
+<launch>
+
+ <!--<node pkg = "darknet_ros" name="distance_service" type="distance_service.py"/>
+-->
+ <node pkg = "nav" name="head_zero" type="head_zero.py"/>
+
+ <node pkg = "nav" name="rotate" type="rotate.py"/>
+
+ <node pkg = "nav" name="drive" type="drive.py"/>
+
+ <node pkg = "nav" name="teleop_demo" type="teleop_demo.py"/>
+
+ <node pkg = "nav" name="arm_to_target" type="arm_to_target.py"/>
+
+</launch>
